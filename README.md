@@ -1,8 +1,8 @@
-# Text Analyzer
+# Music-oasys
 
 ## Description
 
-This is a simple text analyzer that lets the user input a text and then analyze it.
+This is a simple Music-oasys a cd's and vinyls online shop
 
 ## Installation
 
