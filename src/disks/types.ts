@@ -1,4 +1,4 @@
-type Disk = {
+export type Disk = {
   id: number;
   name: string;
   artistName: string;
