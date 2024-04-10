@@ -11,7 +11,6 @@ const disks: Disk[] = [
     originalPrice: 21.99,
     isAlbumOfTheMonth: false,
   },
-
   {
     id: 2,
     name: "Sueño tu boca",
@@ -22,7 +21,6 @@ const disks: Disk[] = [
     originalPrice: 119.99,
     isAlbumOfTheMonth: false,
   },
-
   {
     id: 3,
     name: "Temple of the Dog",
@@ -33,7 +31,6 @@ const disks: Disk[] = [
     originalPrice: 23.99,
     isAlbumOfTheMonth: false,
   },
-
   {
     id: 4,
     name: "Whenever you need somebody",
@@ -44,7 +41,6 @@ const disks: Disk[] = [
     originalPrice: 359.99,
     isAlbumOfTheMonth: false,
   },
-
   {
     id: 5,
     name: "Marifé de Triana",
@@ -55,7 +51,6 @@ const disks: Disk[] = [
     originalPrice: 219.99,
     isAlbumOfTheMonth: false,
   },
-
   {
     id: 6,
     name: "Show me love",
@@ -66,7 +61,6 @@ const disks: Disk[] = [
     originalPrice: 19.99,
     isAlbumOfTheMonth: false,
   },
-
   {
     id: 7,
     name: "Homework",
@@ -77,7 +71,6 @@ const disks: Disk[] = [
     originalPrice: 24.99,
     isAlbumOfTheMonth: false,
   },
-
   {
     id: 8,
     name: "El Chiringuito",
