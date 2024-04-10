@@ -2,4 +2,42 @@
   --main-red: #cf1e1f;
   --main-orange: #f66200;
   --main-text-blue: #1f2c4d;
+  --border-grey: #e6e6e6;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+header.container {
+  display: flex;
+  width: 100vw;
+  min-width: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-grey);
+  height: 61px;
+}
+
+header > div {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  max-height: 100%;
+}
+.logo {
+  display: flex;
+  width: 32px;
+  padding-left: 40%;
+  padding-right: 40%;
+  border-left: 1px solid var(--border-grey);
+  border-right: 1px solid var(--border-grey);
 }
