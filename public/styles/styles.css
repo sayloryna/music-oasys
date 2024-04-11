@@ -12,7 +12,7 @@
 }
 body {
   margin: 0;
-  color: #fff;
+  color: var(--main-text-blue);
 }
 
 header.container {
