@@ -1,8 +1,8 @@
-export type Disk = {
+export type Album = {
   id: number;
   name: string;
   artistName: string;
-  url: string;
+  coverUrl: string;
   format: string;
   price: number;
   originalPrice: number;
