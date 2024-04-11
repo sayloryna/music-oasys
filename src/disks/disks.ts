@@ -1,6 +1,6 @@
-import { Album as Albums } from "./types.js";
+import { Album } from "./types.js";
 
-const Albums: Albums[] = [
+const albums: Album[] = [
   {
     id: 1,
     name: "Bridges to Babylon",
