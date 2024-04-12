@@ -68,3 +68,7 @@ header > div {
   border-left: 1px solid var(--border-color);
   border-right: 1px solid var(--border-color);
 }
+nav.filters ul li a {
+  color: #1f2c4d;
+  font-size: 18px;
+}
