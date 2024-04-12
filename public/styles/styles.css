@@ -47,7 +47,6 @@ a {
 .main-header {
   display: flex;
   width: 100vw;
-  min-width: fit-content;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid var(--border-color);
