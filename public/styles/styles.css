@@ -85,7 +85,7 @@ a {
   border-left: 1px solid var(--border-color);
   max-width: fit-content;
   flex: 1;
-  width:;
+  width: auto;
 }
 
 .logo.icon {
