@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-  <link rel="shortcut icon" href="/images/logo.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="/images/icons/logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 
@@ -17,36 +17,39 @@
   <header class="main-menu">
     <div class="search-box" hidden>
       <div class="search-container">
-        <img title="Lupe image" src="/images/search-icon.svg" alt="a lupe" width="20" height="20">
+        <img title="Lupe image" src="/images/icons/search-icon.svg" alt="a lupe" width="20" height="20">
         <input class="search-input" type="search" placeholder="TYPE FOR SEARCH" maxlength="200" id="search-box-input">
         <button class="close-button">X</button>
       </div>
     </div>
     <button class="search icon">
-      <img title="Lupe image" src="/images/search-icon.svg" alt="a lupe" width="20" height="20">
+      <img title="Lupe image" src="/images/icons/search-icon.svg" alt="a lupe" width="20" height="20">
       <span class="search-text">SEARCH</span>
     </button>
     <div class="logo icon">
-      <img src="/images/logo.svg" alt="fan blades logo" width="32" height="32">
-      <h1 class="header-title"><strong class="main-color-text">MUSIC</strong> OASIS</h1>
+      <img src="/images//icons/logo.svg" alt="fan blades logo" width="32" height="32">
+      <h1 class="header-title"><span class="main-color-text">MUSIC</span> OASIS</h1>
     </div>
     <div class="cart icon">
-      <a href="searchlink" class="cart-link">CART</a>
-      <a href="searchlink">
-        <img title="Cart image" src="/images/cart-icon.svg" alt="a cart" width="20" height="20">
+      <a href="" class="cart-link">CART</a>
+      <a href="">
+        <img title="Cart image" src="/images/icons/cart-icon.svg" alt="a cart" width="20" height="20">
       </a>
     </div>
   </header>
-  <div class="nav-container">
-    <h2 class="main-title">Records</h2>
-    <div class="filter-container">
-      <nav class="filters">
-        <ul class="filters-list">
-          <li><a href="all">All</a></li>
-          <li><a href="vynils">Vinyl</a></li>
-          <li><a href="digital">Digital</a></li>
-        </ul>
-      </nav>
+
+  <div class="main-container">
+    <div class="nav-container">
+      <h1 class="main-title">Records</h1>
+      <div class="filter-container">
+        <nav class="filters">
+          <ul class="filters-list">
+            <li><a class="filter" href="all">All</a></li>
+            <li><a class="filter" href="vynils">Vinyl</a></li>
+            <li><a class="filter" href="digital">Digital</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </div>
 </body>
