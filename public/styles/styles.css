@@ -3,9 +3,7 @@
   --secondary-color: #f66200;
   --main-text-color: #1f2c4d;
   --border-color: #e6e6e6;
-  --main-font-family: montserrat, sans-serif, cursive, system-ui, -apple-system,
-    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-    "Open Sans", "Helvetica Neue";
+  --main-font-family: montserrat, sans-serif, cursive;
 }
 
 *,
