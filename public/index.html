@@ -4,49 +4,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Music OasIs</title>
+  <title>Music Oasis</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="shortcut icon" href="/images/logo.svg" type="image/x-icon">
   <link rel="stylesheet" href="styles/styles.css">
-
 </head>
 
 <body>
   <header class="main-menu">
-
-    <div class="search icon">
-      <a href="searclink">
+    <div class="search-box" hidden>
+      <div class="search-container">
         <img title="Lupe image" src="/images/search-icon.svg" alt="a lupe" width="20" height="20">
-      </a>
-      <a href="seachlink" class="search-link">SEARCH</a> <!--hay que hacer lapagina del search-->
+        <input class="search-input" type="search" placeholder="TYPE FOR SEARCH" maxlength="200" id="search-box-input">
+        <button class="close-button">X</button>
+      </div>
     </div>
+    <button class="search icon">
+      <img title="Lupe image" src="/images/search-icon.svg" alt="a lupe" width="20" height="20">
+      <span class="search-text">SEARCH</span>
+    </button>
     <div class="logo icon">
       <img src="/images/logo.svg" alt="fan blades logo" width="32" height="32">
       <h1 class="header-title"><strong class="main-color-text">MUSIC</strong> OASIS</h1>
     </div>
     <div class="cart icon">
-      <a href="seachlink" class="cart-link">CART</a> <!--hay que hacer lapagina del shoppinglist-->
-      <a href="seachlink">
+      <a href="searchlink" class="cart-link">CART</a>
+      <a href="searchlink">
         <img title="Cart image" src="/images/cart-icon.svg" alt="a cart" width="20" height="20">
       </a>
     </div>
   </header>
-
   <div class="nav-container">
-    <h1 class="main-title">Records</h1>
+    <h2 class="main-title">Records</h2>
     <div class="filter-container">
       <nav class="filters">
         <ul class="filters-list">
           <li><a href="all">All</a></li>
-          <li><a href="vynils">Vynils</a></li>
+          <li><a href="vynils">Vinyl</a></li>
           <li><a href="digital">Digital</a></li>
         </ul>
       </nav>
     </div>
   </div>
+feature/album-container
   <div class="card">
     <div class="album-container">
     </div>
