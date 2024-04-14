@@ -137,7 +137,6 @@ input {
   border-left: 1px solid var(--border-color);
   max-width: fit-content;
   flex: 1;
-  feature/album-container
   width: auto;
 }
 
@@ -160,9 +159,15 @@ input {
   .search-input {
     height: var(--mobile-main-menu-height);
   }
-
   .search-container,
   .search-box {
     width: 100%;
   }
+}
+
+.album-container {
+  border: solid red;
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
 }

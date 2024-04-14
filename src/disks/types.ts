@@ -5,6 +5,6 @@ export type Album = {
   coverUrl: string;
   format: string;
   price: number;
-  originalPrice: number;
+  originalPrice?: number;
   isAlbumOfTheMonth: boolean;
 };
