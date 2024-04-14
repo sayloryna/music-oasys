@@ -52,11 +52,6 @@ button {
   width: fit-content;
 }
 
-.filter:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--main-color);
-}
-
 .main-menu {
   display: flex;
   justify-content: space-between;
@@ -170,7 +165,14 @@ button {
   font-weight: 700;
 }
 
+.filter:hover {
+  border-bottom: 2px solid var(--main-color);
+  border-radius: 5%;
+}
+
 .activated {
+  border-bottom: 2px solid var(--main-color);
+  border-radius: 5%;
   color: var(--main-text-color);
 }
 
