@@ -180,7 +180,18 @@ button {
 }
 
 .album-container {
-  margin: 0 auto;
-  height: 50px;
-  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  max-width: 345px;
+  display: flex;
+  flex-direction: column;
+}
+
+.album-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 15px;
 }
