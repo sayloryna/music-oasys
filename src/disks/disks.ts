@@ -9,7 +9,6 @@ const albums: Album[] = [
       "https://s3-alpha-sig.figma.com/img/6a95/58c5/4877b79adfc4d48b660744a2896a4687?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gBsKjttZBGIFeNOnCagF-BHUJkCejlyXRzdYgvdNvzAemlDLg7euhaHv5XI9YDzrQOsz7PT2OzzNwwdydLpfYqXmTSrAZwwvmwCYyQSC2-yOC0CXlbxvyLjCzfWUHIzcrEA5MjVdil7d7d09qMScaa9~Ov5BjOYK1p-tEq3NCIn2DQmZQSntnPH~v8ulVbAeWFFLqoCugaC9d81fQiaf4A4-LXlj5Gmjo0v9ASj-UKCik4cQR09ztEPBDLwWGUQgVifuzD61ncYuL7rrsvgekUe6L~BdXIPwPCD4TbazX6bCYDAAUqKamPHAz65rdCc4li3oXFSv1XVD8ExXxv30bg__",
     format: "vynil",
     price: 21.99,
-    originalPrice: 21.99,
     isAlbumOfTheMonth: false,
   },
   {
@@ -31,7 +30,6 @@ const albums: Album[] = [
       "https://s3-alpha-sig.figma.com/img/fe3e/24c2/c9bce1b87da30b56f6d48703ff9631df?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GhMHHfcPvuYIa9bOukLC0SbcWjtyu43vhH0Y~t~crrLWg8p9lvPqFkt9~IphagDTWynqX5RmytcB86Ea7bWdhrLdXX0ZzWvg0oFcderMNxTTnQYz9rQWPlQjAnMW8PwrR8kkrzPk9e-Pxih1tDWdkNtj~13aI0ZterZloa6DzfvDzAYHMtQYO6npOFsFPzBe4Un-Y1~45IDdmn3dCa55CpHjGDIsRXWspHXxGp1Q-U74qY0v9ogIICnqr7dPmF2QIpdsK3PrzXg-Pawzql7DkC2l0CA6OHsPlXbDhSW94jws7gvyfb6OBrEhN3kXWsh8eUIjkrH1lF2VuSqeEmmPrA__",
     format: "digital",
     price: 23.99,
-    originalPrice: 23.99,
     isAlbumOfTheMonth: false,
   },
   {
@@ -64,7 +62,6 @@ const albums: Album[] = [
       "https://s3-alpha-sig.figma.com/img/8d32/f016/e03c2cffb41da50f1fd0ece24f5586ac?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Wh4wmbx~B7mKdz5cDMSPV68QFnf3EbaaCJFwmCVCsUPwxQuDZBbuEG2T1k7SwAJMrQACwvhsO-bJ2TiuQJfRzBLtQ73OM1taDlJfBjaSPVWS7Aaw8RXEbrEtxpxEP9bi1PzR49nnHBMgCkptkTA8R6baS4sDKFXvwJdgliqdxYZzLFsusTbsTypwJBZHDi-bxqooTx46MIZ81ZbtF83OrlZpFkNNYk3h7QhxdZwORawWoyZqqOxWX5ItakA~rmqZ~1lsp52DG~ogMLWEMuK8uSa5n~isd-ti4XXxp2ytkL9elUyAE8SVUMlr85DxjlBqGaQjWt2AA~1FECWk30o3XA__",
     format: "digital",
     price: 19.99,
-    originalPrice: 19.99,
     isAlbumOfTheMonth: false,
   },
   {
@@ -75,7 +72,6 @@ const albums: Album[] = [
       "https://s3-alpha-sig.figma.com/img/db4b/164c/ab38881e00f826157481b855926379c4?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oUmPpcyy5ybQ6zsgK32WrL2e2WnfrZAv5IG-8RwY93BPxbZfWlEJaewj63J8KGjJhHHhIxIBZcMBmf9N2cXAOMC7kBWPrGFSmtV6ijoWlyZn-Ekgk8BdAMlnNpMoVS-1n1Ro~YOwZnxAnJjquklZ-0l3Bn4msrDT8Abz-0-ZVTdmjBXQGnn1urHWsuBO9IWaRN7BKxsWYnYJOgq6-eDE-q-qT3sUgVEhnYoVz06HLYlOcKvgso9GlgY16-3Zsaz36GtgY1LRWC-8H75SfIJ7Wv4FK6olyXHjU2T7O5pAoSZ2NMNhEdKD~nSwKwKsOzRQ6TR2pthGEjFE12NK5xFNzw__",
     format: "vinyl",
     price: 24.59,
-    originalPrice: 24.99,
     isAlbumOfTheMonth: false,
   },
   {
