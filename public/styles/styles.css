@@ -2,6 +2,7 @@
   --main-color: #cf1e1f;
   --secondary-color: #f66200;
   --main-text-color: #1f2c4d;
+  --secondary-text-color: #6b7999;
   --border-color: #e6e6e6;
   --main-font-family: montserrat, sans-serif, cursive;
   --header-secondary-font-weigth: 600;
@@ -165,6 +166,12 @@ button {
   display: flex;
   gap: 28px;
   padding: 15px;
+  color: var(--secondary-text-color);
+  font-weight: 700;
+}
+
+.activated {
+  color: var(--main-text-color);
 }
 
 .album-container {
