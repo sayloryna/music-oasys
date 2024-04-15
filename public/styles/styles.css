@@ -8,6 +8,7 @@
   --header-secondary-font-weigth: 600;
   --mobile-main-menu-height: 60px;
   --desktop-main-menu-height: 100px;
+  --card-border-radius: 10px;
 }
 
 *,
@@ -192,7 +193,7 @@ button {
   }
 }
 
-.album-container {
+.albums-container {
   display: flex;
   justify-content: center;
 }
@@ -201,6 +202,12 @@ button {
   max-width: 345px;
   display: flex;
   flex-direction: column;
+  border: 1px solid var(--border-color);
+  border-radius: var(--card-border-radius);
+}
+
+.album-cover {
+  border-radius: var(--card-border-radius);
 }
 
 .album-title {
