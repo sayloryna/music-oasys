@@ -47,6 +47,7 @@ input {
 }
 
 button {
+  font: inherit;
   border: none;
   background: none;
   width: fit-content;
