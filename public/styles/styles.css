@@ -192,7 +192,7 @@ button {
   }
 }
 
-.album-container {
+.albums-container {
   display: flex;
   justify-content: center;
 }
