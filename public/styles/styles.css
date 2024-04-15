@@ -168,6 +168,10 @@ button {
   padding: 15px;
   color: var(--secondary-text-color);
   font-weight: 700;
+  font-size: 1.25rem;
+  @media (max-width: 640px) {
+    font-size: 1.125rem;
+  }
 }
 
 .filter:hover {
