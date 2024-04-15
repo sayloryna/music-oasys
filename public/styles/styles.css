@@ -155,9 +155,13 @@ button {
   width: 154px;
   height: 40px;
   font-family: var(--main-font-family);
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 40px;
+  @media (max-width: 640px) {
+    font-size: 1.75rem;
+  }
 }
+
 .filters-list {
   display: flex;
   gap: 28px;
